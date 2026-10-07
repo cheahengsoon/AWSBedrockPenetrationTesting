@@ -28,7 +28,7 @@ just focus Amazon Bedrock
       "Resource": "*",
       "Condition": {
         "StringEquals": {
-          "aws:RequestedRegion": ["us-east-1", "ap-southeast-1"]
+          "aws:RequestedRegion": [ "ap-southeast-1"]
         }
       }
     }
